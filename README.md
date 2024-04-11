@@ -1,3 +1,3 @@
-#Date 9/4 Login
-#Date 10/4 Register, Forgot Pass
-#Date 11/4 Home
+# Date 11/4 Login
+# Date 12/4 REgister, Forgot Pass
+##Dating Web is a React Native project using Expo, TypeScript, FireBase, Tailwindcss
