@@ -1,11 +1,13 @@
 import React from "react"
-import { Text, View } from "react-native"
+import { Button, Text, View } from "react-native"
+import { auth } from "../../FirebaseConfig";
 
 const ProfileScreen = () => {
   return (
-    <View>
-        <Text>ProfileScreen</Text>
-    </View>
+    <View className="flex-1 justify-center items-center p-5">
+        <Text>profile</Text>
+        <Button onPress={() => auth.signOut()} title="Log out" />   
+      </View>
   )
 };
 

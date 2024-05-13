@@ -18,7 +18,7 @@ import {
       <View className="relative">
         <TouchableWithoutFeedback >
           <Image
-            source={item.imgUrl}
+            source={item.image_url}
             style={{
               width: width * 0.8,
               height: height * 0.75,
@@ -47,21 +47,21 @@ import {
         <View className="absolute bottom-10 justify-start w-full items-start pl-4">
           <View className="flex-row justify-center items-center ">
             <Text className="text-2xl text-white font-bold">
-              {item.name} {item.lastName}
+              {item.first_name} {item.last_name}
               {", "}
             </Text>
-            <Text className="text-2xl text-white font-bold mr-2">{item.age}</Text>
+            <Text className="text-2xl text-white font-bold mr-2">{item.dob}</Text>
             <CheckBadgeIcon size={25} color={"#3B82F6"} />
           </View>
   
           {/* Location */}
           <View className="flex-row justify-center items-center ">
             <Text className="text-lg text-white font-regular">
-              {item.city}
+              Nha Trang
               {", "}
             </Text>
             <Text className="text-lg text-white font-regular mr-2">
-              {item.country}
+              Viet Nam
             </Text>
           </View>
         </View>
