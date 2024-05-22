@@ -14,6 +14,7 @@
     "@react-navigation/material-bottom-tabs": "^6.2.28",
     "@react-navigation/stack": "^6.3.29",
     "@reduxjs/toolkit": "^2.2.5",
+    "axios": "^1.7.2",
     "json-loader": "^0.5.7",
     "react-i18next": "^14.1.1",
     "react-native-loading-spinner-overlay": "^3.0.1",

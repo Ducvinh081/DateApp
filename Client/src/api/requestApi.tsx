@@ -7,7 +7,7 @@ import {
     URL_POST_FCM_TOKEN, URL_POST_DELETE_FCM_TOKEN
 } from './url'
 import axios from 'axios';
-import Const from '/src/const'
+import Const from '../const'
 
 const getAxios = (token) => {
     const client = axios.create({

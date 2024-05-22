@@ -1,10 +1,10 @@
 import React from 'react'
 import { StyleSheet, Image, View } from 'react-native'
-import Themes from '/src/themes'
+import Themes from '../../themes'
 import Onboarding from 'react-native-onboarding-swiper';
 import { useNavigation } from '@react-navigation/native';
 
-import Const from '/src/const'
+import Const from '../../const'
 
 export default function introduction() {
     const navigation = useNavigation();
