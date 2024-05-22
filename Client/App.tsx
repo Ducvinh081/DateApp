@@ -7,7 +7,7 @@ import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import Fontisto from 'react-native-vector-icons/Fontisto';
 import store from './src/store';
-import Router from './src/router';
+import Navigation from './src/configs/Navigation';
 Icon.loadFont()
 MaterialIcon.loadFont()
 AntDesign.loadFont()
@@ -17,7 +17,7 @@ Ions.loadFont()
 const App: React.FunctionComponent = () => {
     return (
         <Provider store={store}>
-            <Router />
+            <Navigation />
         </Provider>
     );
 };
